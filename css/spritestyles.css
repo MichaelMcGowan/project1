@@ -1,0 +1,80 @@
+/*General Spritestyles*/
+/*by Michael McGowan (generated using https://spritegen.website-performance.org/)*/
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-dash-blue {
+    width: 72px;
+    height: 90px;
+    background-position: -5px -5px;
+}
+
+.sprite-dash-green {
+    width: 68px;
+    height: 91px;
+    background-position: -87px -5px;
+}
+
+.sprite-edit-blue {
+    width: 72px;
+    height: 90px;
+    background-position: -165px -5px;
+}
+
+.sprite-edit-green {
+    width: 68px;
+    height: 91px;
+    background-position: -5px -105px;
+}
+
+.sprite-messages-blue {
+    width: 72px;
+    height: 90px;
+    background-position: -165px -105px;
+}
+
+.sprite-messages-green {
+    width: 68px;
+    height: 91px;
+    background-position: -83px -205px;
+}
+
+.sprite-people-blue {
+    width: 72px;
+    height: 90px;
+    background-position: -161px -205px;
+}
+
+.sprite-people-green {
+    width: 68px;
+    height: 91px;
+    background-position: -247px -5px;
+}
+
+.sprite-stats-blue {
+    width: 72px;
+    height: 90px;
+    background-position: -247px -106px;
+}
+
+.sprite-stats-green {
+    width: 68px;
+    height: 91px;
+    background-position: -5px -206px;
+}
+
+.sprite-tag-blue {
+    width: 72px;
+    height: 90px;
+    background-position: -243px -206px;
+}
+
+.sprite-tag-green {
+    width: 68px;
+    height: 91px;
+    background-position: -83px -306px;
+}
