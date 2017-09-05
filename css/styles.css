@@ -54,13 +54,16 @@
     opacity: 0;
     cursor: pointer;
 }
+
 .back {
   margin-left: 1px;
 }
+
 .above {
    position: absolute;
   z-index: 2;
 }
+
 .below {
    position: absolute;
   z-index: 1;
@@ -70,21 +73,27 @@
 #dashboard {
   left: 20%;
 }
+
 #people {
   left: 30%;
 }
+
 #chat {
   left: 40%;
 }
+
 #tag {
   left: 50%;
 }
+
 #edit {
   left: 60%;
 }
+
 #stats {
   left: 70%;
 }
+
 #chevron {
   left: 21.5%;
   bottom: 0%;
@@ -95,6 +104,7 @@
 .shift-2 {
   margin-left: -2px;
 }
+
 .shift-1 {
   margin-left: -1px;
 }
@@ -106,6 +116,7 @@
   padding: 20px 0px 10px 0px;
   margin-top: 15px;
 }
+
 .dash h1 {
   font-family: 'Hind', sans-serif;
   font-size: 27px;
@@ -119,12 +130,14 @@
   float: right;
   margin-top: -3px;
 }
+
 .dash form input {
   border-color: #2db55b;
   border-style: solid;
   border-width: 1px;
   border-radius: 2px;
 }
+
 .dash img {
   z-index: 2;
   position: absolute;
@@ -148,6 +161,47 @@
   box-shadow: 0px 1px 1px grey;
 }
 
+h2 {
+  font-family: 'Hind', sans-serif;
+  font-size: 30px;
+  color: #3399ff;
+  margin-left: 20px;
+  display: inline;
+}
+
+/*panels*/
+.tiles {
+  margin: 0px 3px;
+  background-color: white;
+  padding-top: 15px;
+}
+
+/*remove shadow*/
+.row .row {
+  box-shadow: none;
+}
+
+/*remove column padding*/
+.internal {
+  padding: 0px;
+}
+
+/*style for tiles with internal border-right*/
+.border-right {
+  border-right: 0.5px solid #eeeeee;
+}
+
+.border-bottom {
+    border-bottom: 0.5px solid #eeeeee;
+}
+
+/*styling for sprites as list style items*/
+.bullet {
+  float: left;
+  display: inline;
+  margin-left: 20px;
+}
+
 /*ANNOUNCEMENTS (top row)*/
 .announcements {
   background-color: white;
@@ -155,6 +209,7 @@
   margin: 0px 3px;
   line-height: 45px;
 }
+
 .announcements h4 {
   font-family: 'Hind', sans-serif;
   font-weight: lighter;
@@ -164,6 +219,7 @@
   line-height: 45px;
   vertical-align: middle;
 }
+
 .announcements p {
   font-family: 'Hind', sans-serif;
   font-weight: lighter;
@@ -171,9 +227,66 @@
   color: #777777;
   margin: 0px;
 }
+
 .announcements a { /*left/right arrow buttons in announcements row*/
   margin: 3px;
 }
+
 .announcements a img:hover {
   transform: scale(1.1);
+}
+
+/*shared - TASKS*/
+.tasks h3 {
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+  color: #3399ff;
+  margin-left: 15px;
+  display: inline;
+  vertical-align: super;
+}
+
+.tasks ul {
+  list-style: none;
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.tasks li:last-child { /*rm border from last item*/
+  border: none;
+}
+
+.tasks li:hover, .recs li:hover {
+  /*grayscale from w3schools https://www.w3schools.com/cssref/css3_pr_filter.asp*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100);
+  cursor: pointer;
+}
+
+/*TASKS*/
+.tasks .sprite-tasks-settings {
+  float: right;
+  display: inline;
+  margin-right: 20px;
+}
+
+.tasks li {
+  line-height: 40px;
+  padding: 15px 0px 5px 0px;
+  border-bottom: 0.5px solid #eeeeee;
+}
+
+/*task tiles hover*/
+.tasks .sprite-tasks-settings:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/*task tiles*/
+.tag {
+  float: right;
+  display: inline;
+  vertical-align: super;
+  margin-right: 20px;
 }
