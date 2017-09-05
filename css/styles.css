@@ -186,7 +186,7 @@ h2 {
   padding: 0px;
 }
 
-/*style for tiles with internal border-right*/
+/*tiles internal border-right*/
 .border-right {
   border-right: 0.5px solid #eeeeee;
 }
@@ -195,7 +195,7 @@ h2 {
     border-bottom: 0.5px solid #eeeeee;
 }
 
-/*styling for sprites as list style items*/
+/*sprites as list items*/
 .bullet {
   float: left;
   display: inline;
@@ -228,7 +228,7 @@ h2 {
   margin: 0px;
 }
 
-.announcements a { /*left/right arrow buttons in announcements row*/
+.announcements a { /*arrow buttons*/
   margin: 3px;
 }
 
@@ -236,8 +236,8 @@ h2 {
   transform: scale(1.1);
 }
 
-/*shared - TASKS*/
-.tasks h3 {
+/*shared - TASKS and RECOMMENDATIONS*/
+.tasks h3, .rec h3 {
   font-family: 'Hind', sans-serif;
   font-size: 20px;
   color: #3399ff;
@@ -246,7 +246,7 @@ h2 {
   vertical-align: super;
 }
 
-.tasks ul {
+.tasks ul, .rec ul {
   list-style: none;
   padding: 0px;
   margin-top: 5px;
@@ -257,8 +257,8 @@ h2 {
   border: none;
 }
 
-.tasks li:hover, .recs li:hover {
-  /*grayscale from w3schools https://www.w3schools.com/cssref/css3_pr_filter.asp*/
+.tasks li:hover, .rec li:hover {
+  /*grayscale filter from w3schools - link: https://www.w3schools.com/cssref/css3_pr_filter.asp*/
   -webkit-filter: grayscale(100%);
   filter: grayscale(100);
   cursor: pointer;
@@ -289,4 +289,52 @@ h2 {
   display: inline;
   vertical-align: super;
   margin-right: 20px;
+}
+
+/*RECOMMENDATIONS*/
+.rec {
+  padding: 20px 20px; /*border troubleshooting*/
+}
+
+.rec li {
+  line-height: 40px;
+  padding: 15px 0px 5px 0px;
+  border-bottom: 0.5px dotted #eeeeee;
+}
+
+.rec h2 {
+  margin: 0px;
+}
+
+/*bullet spacing*/
+.rec-list .bullet {
+  width: 20px;
+  margin: 0px 20px 0px 0px;
+}
+
+/*superscript*/
+.rec h6 {
+  font-family: 'Hind', sans-serif;
+  font-size: 10px;
+  color: #777777;
+  margin: 0px;
+  display: block;
+  vertical-align: middle;
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+/*main content*/
+.rec p {
+  font-family: 'Hind', sans-serif;
+  font-size: 17px;
+  color: #777777;
+  line-height: normal;
+  display: block;
+  text-align: left;
+  line-height: 100%;
+}
+
+.rec li:hover p, .rec li:hover h6 {
+  color: black;
 }
