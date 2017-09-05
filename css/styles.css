@@ -1,0 +1,37 @@
+/*Custom Stylesheet by Michael McGowan*/
+
+/*NAVIGATION BARS*/
+/*navbar and iconbar*/
+.horizontal > li {
+  float: right;
+}
+
+/*top navbar*/
+.navbar {
+  background-color: #2394ee;
+  padding: 5px 100px 10px 0px;
+  padding-right: 100px; /*would have rather used percentages here but couldn't figure it out*/
+  height: 35px;
+}
+
+/*compress icons*/
+.navbar img {
+  height: 17px;
+}
+
+/*navbar link text*/
+.navbar li a {
+  font-weight: bold;
+  color: white;
+  font-size: 10.5px;
+  padding-right: 10px;
+}
+
+/*separators via stack overflow https://stackoverflow.com/questions/5688791/separators-for-navigation/11574821*/
+.navbar > div > ul > li > a > img {
+  background-image: url(../images/separator.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-left: 10px;
+  margin: 0 auto;
+}
