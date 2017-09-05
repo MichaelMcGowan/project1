@@ -130,3 +130,50 @@
   position: absolute;
   left: 96%;
 }
+
+/*CONTENT*/
+
+/*general styling*/
+/*styling for content div*/
+.content {
+  background-image: url(../images/trans-gradient.png);
+  background-size:contain;
+  margin: 0px -15px;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.content .row {
+  box-shadow: 0px 1px 1px grey;
+}
+
+/*ANNOUNCEMENTS (top row)*/
+.announcements {
+  background-color: white;
+  border: 1px solid #efefef;
+  margin: 0px 3px;
+  line-height: 45px;
+}
+.announcements h4 {
+  font-family: 'Hind', sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #f57e20;
+  margin: 0px;
+  line-height: 45px;
+  vertical-align: middle;
+}
+.announcements p {
+  font-family: 'Hind', sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #777777;
+  margin: 0px;
+}
+.announcements a { /*left/right arrow buttons in announcements row*/
+  margin: 3px;
+}
+.announcements a img:hover {
+  transform: scale(1.1);
+}
