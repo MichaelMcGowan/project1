@@ -35,3 +35,66 @@
   padding-left: 10px;
   margin: 0 auto;
 }
+
+/*navigation bar with icons*/
+.icons {
+  background-image: url(../images/icon-background.png);
+  background-position: center;
+  height: 110px;
+  padding-top: 20px;
+}
+
+/*removes list styling for nav-bar and icon-bar*/
+.icons ul, .navbar ul {
+  list-style: none;
+}
+
+/*styling for standard/hover state icons*/
+.front:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+.back {
+  margin-left: 1px;
+}
+.above {
+   position: absolute;
+  z-index: 2;
+}
+.below {
+   position: absolute;
+  z-index: 1;
+}
+
+/*Icons Spacing*/
+#dash {
+  left: 20%;
+}
+#people {
+  left: 30%;
+}
+#chat {
+  left: 40%;
+}
+#tag {
+  left: 50%;
+}
+#edit {
+  left: 60%;
+}
+#bars {
+  left: 70%;
+}
+#chevron {
+  left: 21.5%;
+  bottom: 0%;
+  margin-bottom: -5px;
+}
+
+/*icon adjustment*/
+.shift-left-2 {
+  margin-left: -2px;
+}
+.shift-left-1 {
+  margin-left: -1px;
+}
