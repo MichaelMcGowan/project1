@@ -258,7 +258,7 @@ h2 {
 }
 
 .tasks li:hover, .rec li:hover {
-  /*grayscale from w3schools https://www.w3schools.com/cssref/css3_pr_filter.asp*/
+  /*grayscale filter from w3schools - link: https://www.w3schools.com/cssref/css3_pr_filter.asp*/
   -webkit-filter: grayscale(100%);
   filter: grayscale(100);
   cursor: pointer;
