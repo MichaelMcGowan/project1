@@ -339,3 +339,22 @@ h2 {
 .rec li:hover p, .rec li:hover h6 {
   color: black;
 }
+
+/*Dropdown Menu Styling*/
+
+.dropbtn {
+    background-color: white;
+    color: #666666;
+    padding: 3px 7px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.dropbtn * {
+  display: inline;
+  margin: 12px;
+}
+.dropdown button {
+  padding: 0px;
+}
