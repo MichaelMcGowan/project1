@@ -429,3 +429,63 @@ h2 {
 .donuts img {
   margin-bottom: 30px;
 }
+
+.social-col {
+  margin-top: 20px;
+}
+.social-col, .buffer {
+  padding-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label{
+  background: url(../images/unchecked.png);
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin: 0px 2px 10px 10px;
+}
+
+input[type="checkbox"]:checked + label{
+  background: url(../images/checked.png);
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin: 0px 2px 10px 10px;
+}
+
+label:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.social-tag {
+  display: inline-block;
+  border-radius: 5px;
+  font-family: 'Hind', sans-serif;
+  font-size: 13px;
+  color: white;
+  display: inline;
+  vertical-align: top;
+  text-align: center;
+  padding: 0px 8px;
+  margin-left: -3px;
+}
+
+#facebook {
+  background-color: #003366;
+}
+#twitter {
+  background-color: #3399ff;
+}
+#foursquare {
+  background-color: #336699;
+}
+#google {
+  background-color: #33cc66;
+}
