@@ -184,7 +184,7 @@ h2 {
 
 /*remove column padding*/
 .internal {
-  padding: 0px;
+  padding: 10px;
 }
 
 /*tiles internal border-right*/
@@ -194,6 +194,10 @@ h2 {
 
 .border-bottom {
     border-bottom: 0.5px solid #eeeeee;
+}
+
+.center {
+  text-align: center;
 }
 
 /*sprites as list items*/
@@ -359,6 +363,12 @@ h2 {
   padding: 0px;
 }
 
+.drop {
+    position: relative;
+    display: inline;
+    float: right;
+}
+
 .dropbtn-items {
     display: none;
     position: absolute;
@@ -382,22 +392,40 @@ h2 {
   line-height: 20px;
   vertical-align: middle;
   margin: 10px;
+  font-weight: lighter;
 }
 
 .drop:hover .dropbtn-items {
     display: block;
 }
 
+.analytics h2, h5 {
+  display: block;
+}
+
+.activity {
+  border-right: 1px solid #cccccc;
+}
+
 .analytics h5 {
   font-family: 'Hind', sans-serif;
   font-size: 13px;
   color: #999999;
-  margin-left: 30px;
   display: inline;
   vertical-align: middle;
   text-align: left;
 }
 
-.sprite-graph {
+.graph {
   margin: 30px 20px 20px 20px;
+  width: 90%;
+}
+
+.donuts * {
+  margin: 10px;
+  vertical-align: bottom;
+}
+
+.donuts img {
+  margin-bottom: 30px;
 }
