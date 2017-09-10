@@ -262,11 +262,15 @@ h2 {
   border: none;
 }
 
-.tasks li:hover, .rec li:hover {
+.tasks a:hover li, .rec a:hover li{
   /*grayscale filter from w3schools - link: https://www.w3schools.com/cssref/css3_pr_filter.asp*/
   -webkit-filter: grayscale(100%);
   filter: grayscale(100);
   cursor: pointer;
+}
+
+.tasks a:hover, .rec a:hover {
+  text-decoration: none;
 }
 
 /*TASKS*/
@@ -344,6 +348,7 @@ h2 {
   color: black;
 }
 
+/*ANALYTICS*/
 /*Dropdown Menu Styling*/
 
 .dropbtn {
@@ -399,6 +404,7 @@ h2 {
     display: block;
 }
 
+/*graph stylings*/
 .analytics h2, h5 {
   display: block;
 }
@@ -437,6 +443,7 @@ h2 {
   padding-bottom: 20px;
 }
 
+/*checkbox form override*/
 input[type="checkbox"] {
   display: none;
 }
@@ -477,6 +484,7 @@ label:hover {
   margin-left: -3px;
 }
 
+/*share styles*/
 #facebook {
   background-color: #003366;
 }
@@ -489,3 +497,5 @@ label:hover {
 #google {
   background-color: #33cc66;
 }
+
+/*CONTACTS and CUSTOMERS*/
