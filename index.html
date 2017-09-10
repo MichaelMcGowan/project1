@@ -18,8 +18,8 @@
   </head>
 
   <body>
-<!-- navigation bar and icon-bar outside container full width -->
-    <div class="row navbar">
+
+    <div class="row navbar"> <!--navbar-->
       <div class="col-md-12">
         <ul class="horizontal">
           <li><a href="#"><img src="images/settings.png"></a></li>
@@ -29,7 +29,7 @@
       </div>
     </div> <!-- end navbar -->
 
-    <div class="row icons">
+    <div class="row icons"> <!--icons-->
       <div class="col-md-3"></div>
         <div class="col-md-6">
             <ul class="horizontal">
@@ -65,7 +65,7 @@
         </div> <!-- end dashboard -->
 
         <div class="content">
-          <div class="row announcements">
+          <div class="row announcements"> <!--announcements-->
             <div class="border-right col-md-2">
               <h4>ANNOUNCEMENTS</h4>
             </div>
@@ -79,7 +79,7 @@
 
           <div class="row tiles">
             <div class="col-md-4 internal">
-              <div class="row tasks border-right border-bottom">
+              <div class="row tasks border-right border-bottom"> <!--tasks-->
                 <div class="internal col-md-12">
                   <h2>Tasks</h2>
                   <i class="sprite2 sprite-tasks-settings"></i>
@@ -96,7 +96,7 @@
                 </div>
               </div> <!-- end tasks -->
 
-              <div class="row rec border-right">
+              <div class="row rec border-right"> <!--recs-->
                  <div class="internal col-md-12">
                    <h2>Recommendations</h2>
                    <ul class="rec-list">
@@ -111,12 +111,14 @@
                    </ul>
                  </div>
                </div> <!-- end recs -->
-             </div> <!--end of left column -->
+             </div> <!--end left column -->
+
+
                <div class="col-md-8 internal">
-                 <div class="row analytics"> <!-- analytics title text -->
+                 <div class="row analytics">
                    <h2>Analytics</h2>
                 </div>
-                <div class="row analytics internal">
+                <div class="row analytics internal"> <!-- graph and donuts -->
                   <div class="col-md-9 activity">
                     <h5>ACTIVITY</h5>
                     <div class="drop">
@@ -135,9 +137,11 @@
                         <img class="donuts" src="images/channels.png"></div>
                       <div><h5>REFERRALS</h5>
                         <img class="donuts" src="images/referrals.png"></div>
-                    </div> <!-- end donut -->
+                    </div> <!-- end donuts -->
                 </div> <!-- end analytics -->
-                <div class="row social internal">
+
+
+                <div class="row social internal"> <!-- social checkboxes -->
                   <div class="col-md-2 space border-bottom">
                   </div>
                   <div class="col-md-8 social-col border-bottom">
@@ -150,8 +154,10 @@
                   </div>
                   <div class="col-md-2 space border-bottom">
                   </div>
-                </div>
-                <div class="row contacts border-bottom">
+                </div> <!-- end social checkboxes -->
+
+
+                <div class="row contacts border-bottom"> <!--Contacts and Customers-->
                   <div class="contact-tile col-md-6">
                     <a href="#">
                       <div class="outside green">
@@ -180,8 +186,25 @@
                       </div>
                     </a>
                   </div>
-              </div>
-            </div>
+                </div> <!--end Contacts and Customers-->
+
+
+                  <div class="row dyk"> <!-- "Did You Know" section -->
+                    <div class="col-md-1 dyk-nav-left">
+                      <a href="#"><img src="images/semi-left.png"></a>
+                    </div>
+                    <div class="col-md-10 dyk-text">
+                      <h5>DID YOU KNOW?</br>Maecenas sed diam eget risus varius blandit sit amet non magna.</br>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</h5>
+                    </div>
+                    <div class="col-md-1 dyk-nav-right">
+                      <a href="#"><img src="images/semi-right.png"></a>
+                    </div>
+                  </div> <!-- end "Did You Know?" section -->
+              </div> <!-- end right column -->
+            </div> <!-- end tiles -->
+
+
           </div>
         </div>
       </div>
