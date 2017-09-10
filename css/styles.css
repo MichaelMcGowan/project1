@@ -609,3 +609,36 @@ label:hover {
   display: block;
   text-align: left;
 }
+
+/*AD BANNER*/
+.ad-banner div{
+  display: inline-flex;
+}
+
+.ad-banner {
+  background-color: #2498f4;
+  margin-top: 10px;
+}
+
+.inside-ad{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px #004466;
+  margin: 30px 15px;
+  height: 160px;
+  width: 268px;
+}
+
+.ad-banner a:hover{
+  cursor: pointer;
+}
+
+.inside-ad img{
+  vertical-align: top;
+}
+
+.ad-M img{
+  position: absolute;
+  top:19px;
+  border-radius: 5px
+}
