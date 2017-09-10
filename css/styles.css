@@ -499,3 +499,69 @@ label:hover {
 }
 
 /*CONTACTS and CUSTOMERS*/
+.contacts{
+  height: 300px;
+}
+
+.outside{
+  position:absolute;
+  left: 15%;
+  height: 200px;
+  width: 240px;
+  margin: 50px 0px;
+  z-index: 2;
+  background-image: url(../images/ribbon.png);
+  background-repeat: no-repeat;
+  background-position: 0px 18px;
+}
+
+.outside img{
+  position: absolute;
+  margin:0px auto;
+  z-index:2;
+  left:82px;
+  top:-21px;
+}
+
+.inside{
+  width:210px;
+  margin:0 auto;
+  text-align: center;
+  border: 0.5px solid #d9d9d9;
+  border-radius: 5px;
+  padding-top: 60px;
+  border-left: none;
+  border-right: none;
+  box-shadow: 0px 0px 1px 1px #d9d9d9;
+}
+
+.banner{
+  background-color: #3399ff;
+  text-align: center;
+  padding: 5px;
+  margin-top: -1px;
+}
+
+.contacts h3{
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+  color: white;
+  display: block;
+  vertical-align: super;
+  text-align: center;
+  margin: 0px;
+}
+
+.contacts h5{
+  font-family: 'Hind', sans-serif;
+  font-size: 12px;
+  color: white;
+  display: block;
+  text-align: center;
+  margin: 0px;
+}
+
+.sprite-chart-orange, .sprite-chart-green{
+  margin: 15px auto;
+  border: 1px solid #eaeeec;
+}
