@@ -109,7 +109,14 @@
   margin-top: -20px;
 }
 
+/*Did You Know? tile*/
+.dyk-nav-left img{
+  transform: translateY(85%);
+}
 
+.dyk-nav-right img{
+  transform: translate(1538%, -175%);
+}
 
 
 
