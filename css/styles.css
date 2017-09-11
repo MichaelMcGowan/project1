@@ -625,8 +625,9 @@ label:hover {
   border-radius: 5px;
   box-shadow: 0px 2px 2px #004466;
   margin: 30px 15px;
-  height: 160px;
-  width: 268px;
+  max-height: 160px;
+  min-height: 160px;
+  min-width: 268px;
 }
 
 .ad-banner a:hover{

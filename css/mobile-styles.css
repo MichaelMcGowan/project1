@@ -118,6 +118,27 @@
   transform: translate(1538%, -175%);
 }
 
+/*ad banner*/
+.ad-banner{
+  margin-bottom: -45px;
+}
+.ad-banner div{
+  display: block;
+}
+
+.ad-M img{
+  position: absolute;
+  top: 209px;
+  left: 55.5px;
+  border-radius: 5px;
+}
+
+.inside-ad{
+  width: 268px;
+  margin:30px auto;
+}
+
+
 
 
 
