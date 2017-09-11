@@ -13,23 +13,23 @@
 }
 
 #dashboard{
-  left:5%;
+  left:7%;
 }
 
 #people{
-  left:20%;
+  left:23%;
 }
 
 #chat{
-  left:35%;
+  left:39%;
 }
 
 #tag{
-  left:50%;
+  left:54%;
 }
 
 #edit{
-  left:65%;
+  left:67%;
 }
 
 #stats{
@@ -37,7 +37,7 @@
 }
 
 #chevron{
-  left:7.5%;
+  left:9.5%;
   margin-bottom:-65px;
 }
 
