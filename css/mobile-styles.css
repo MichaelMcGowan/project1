@@ -41,6 +41,49 @@
   margin-bottom:-65px;
 }
 
+/*dashboard search bar*/
+.dash {
+  margin: 10px 0px -10px;
+}
+
+.dash img{
+  left: 87%;
+}
+
+/*announcements leading and alignment*/
+.announcements{
+  line-height: 17px;
+}
+
+.announcements .center{
+  margin: 10px 0px;
+}
+
+/*tasks and recommendations and analytics borders*/
+.tasks, .rec, .activity{
+  border-right: none;
+}
+
+.rec{
+  padding-bottom: 5px;
+}
+
+/*analytics donuts and social media spacing*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
