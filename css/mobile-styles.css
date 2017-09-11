@@ -99,6 +99,15 @@
   margin: 0 -5px 0 -10px;
 }
 
+/*contacts*/
+.contacts{
+  min-height: 550px;
+}
+
+.contact-tile{
+  min-height: 275px;
+  margin-top: -20px;
+}
 
 
 
