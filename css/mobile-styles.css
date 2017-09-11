@@ -1,0 +1,14 @@
+/*mobile styles by Michael McGowan*/
+/*information about targeting mobile device from Rob Gravelle at: http://www.htmlgoodies.com/beyond/css/targeting-specific-devices-in-your-style-sheets.html*/
+
+@media only screen and (max-width: 400px){
+
+/*navigation*/
+.navbar{
+  padding-right: 0px;
+}
+
+
+
+
+}
