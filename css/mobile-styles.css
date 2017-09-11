@@ -8,6 +8,38 @@
   padding-right: 0px;
 }
 
+.icons{
+  padding-bottom: 50px;
+}
+
+#dashboard{
+  left:5%;
+}
+
+#people{
+  left:20%;
+}
+
+#chat{
+  left:35%;
+}
+
+#tag{
+  left:50%;
+}
+
+#edit{
+  left:65%;
+}
+
+#stats{
+  left:80%
+}
+
+#chevron{
+  left:7.5%;
+  margin-bottom:-65px;
+}
 
 
 
