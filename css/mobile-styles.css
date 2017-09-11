@@ -69,7 +69,35 @@
 }
 
 /*analytics donuts and social media spacing*/
+.donuts{
+  padding: 0px;
+  margin: 0px 10px 0px 55px;
+}
 
+.donuts div{
+  display: inline-block;
+  width: 40%;
+  margin: 0px 10px;
+}
+
+.donuts div *{
+  margin: 10px 0px;
+}
+
+.donuts h5{
+  margin-left: 10px;
+}
+
+.social-col{
+  padding: 0px;
+  border-bottom: none;
+}
+
+.social-tag{
+  font-size: 10px;
+  line-height: 20px;
+  margin: 0 -5px 0 -10px;
+}
 
 
 
